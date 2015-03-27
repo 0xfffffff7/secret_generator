@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
   spec.files         = ['bin/secret_generator']
   #spec.bindir        = "exe"
   spec.executables   = ['secret_generator']
-  spec.require_paths = ["lib"]
+  #spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.9"
   spec.add_development_dependency "rake", "~> 10.0"
