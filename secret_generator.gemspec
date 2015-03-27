@@ -13,9 +13,9 @@ Gem::Specification.new do |spec|
   spec.description   = %q{}
   spec.homepage      = "https://github.com/0xfffffff7/secret_generator"
 
-  spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
-  spec.bindir        = "exe"
-  spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
+  spec.files         = ['bin/secret_generator']
+  #spec.bindir        = "exe"
+  spec.executables   = ['secret_generator']
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.9"
