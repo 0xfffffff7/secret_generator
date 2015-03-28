@@ -4,8 +4,16 @@ secret_generator can easily create a self-signed certificate.
 
 # How to
 
+## Installation
+
 ```
-secret_generator [hostname]
+    $ gem install secret_generator
+```
+
+#Excecute.
+
+```
+    $ secret_generator [hostname]
 ```
 
 If Once you have omitted the host name of the argument, the host name of the machine will be used.
@@ -15,12 +23,6 @@ Result is output to current directory.
 ```
 secret.key
 public.key
-```
-
-## Installation
-
-```
-    $ gem install secret_generator
 ```
 
 ## Contributing
